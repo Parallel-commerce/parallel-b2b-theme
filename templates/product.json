@@ -45,7 +45,7 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "wishlist_b2b_wishlist_button_HL3Gy8": {
+        "wishlist_b2b_wishlist_button_DQNJQU": {
           "type": "shopify://apps/wishlist-b2b/blocks/wishlist-button/b569230d-fb77-4a0c-b6a9-d543c0cfd085",
           "settings": {
             "button_label": "Add to wishlist"
@@ -112,7 +112,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "wishlist_b2b_wishlist_button_HL3Gy8",
+        "wishlist_b2b_wishlist_button_DQNJQU",
         "buy_buttons",
         "description",
         "collapsible-row-0",
