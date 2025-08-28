@@ -220,18 +220,25 @@
         "padding_bottom": 36
       }
     },
-    "1754861063fc00ac6e": {
+    "1756411199ba9ced2b": {
       "type": "apps",
       "blocks": {
-        "wishlist_b2b_wishlist_viewer_mVTc88": {
-          "type": "shopify://apps/wishlist-b2b/blocks/wishlist-viewer/b569230d-fb77-4a0c-b6a9-d543c0cfd085",
+        "reorderly_v2_wishlist_viewer_HyabPk": {
+          "type": "shopify://apps/reorderly-v2/blocks/wishlist-viewer/092a80d7-24dc-4627-a7ff-4a1b1a534bf4",
           "settings": {
-            "title": "My Wishlists"
+            "title": "My Wishlist",
+            "login_message": "Please log in to view your wishlist.",
+            "login_button_text": "Login",
+            "loading_text": "Loading your wishlist...",
+            "empty_message": "Your wishlist is empty.",
+            "shop_button_text": "Start Shopping",
+            "view_button_text": "View Product",
+            "remove_button_text": "Remove"
           }
         }
       },
       "block_order": [
-        "wishlist_b2b_wishlist_viewer_mVTc88"
+        "reorderly_v2_wishlist_viewer_HyabPk"
       ],
       "settings": {
         "include_margins": true
@@ -245,6 +252,6 @@
     "collage",
     "video",
     "multicolumn",
-    "1754861063fc00ac6e"
+    "1756411199ba9ced2b"
   ]
 }
