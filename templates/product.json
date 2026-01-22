@@ -49,7 +49,7 @@
           "type": "shopify://apps/reorderly-v2/blocks/wishlist-icon/092a80d7-24dc-4627-a7ff-4a1b1a534bf4",
           "settings": {
             "product": "{{product}}",
-            "text": "Add to wishlist",
+            "text": "Add to Favorites",
             "colour": "#ff0000"
           }
         },
