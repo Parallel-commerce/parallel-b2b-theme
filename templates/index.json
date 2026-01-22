@@ -232,13 +232,49 @@
             "loading_text": "Loading your wishlist...",
             "empty_message": "Your wishlist is empty.",
             "shop_button_text": "Start Shopping",
-            "view_button_text": "View Product",
-            "remove_button_text": "Remove"
+            "add_to_cart_button_text": "Add to Cart",
+            "adding_to_cart_text": "Adding...",
+            "added_to_cart_text": "Added!",
+            "remove_button_text": "Remove",
+            "search_placeholder": "Search products...",
+            "all_vendors_text": "All Vendors",
+            "all_product_types_text": "All Product Types",
+            "clear_filters_text": "Clear Filters"
           }
         }
       },
       "block_order": [
         "reorderly_v2_wishlist_viewer_HyabPk"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1769072290ba1bb53c": {
+      "type": "apps",
+      "blocks": {
+        "reorderly_v2_wishlist_viewer_fCcUBH": {
+          "type": "shopify://apps/reorderly-v2/blocks/wishlist-viewer/092a80d7-24dc-4627-a7ff-4a1b1a534bf4",
+          "settings": {
+            "title": "My Wishlist",
+            "login_message": "Please log in to view your wishlist.",
+            "login_button_text": "Login",
+            "loading_text": "Loading your wishlist...",
+            "empty_message": "Your wishlist is empty.",
+            "shop_button_text": "Start Shopping",
+            "add_to_cart_button_text": "Add to Cart",
+            "adding_to_cart_text": "Adding...",
+            "added_to_cart_text": "Added!",
+            "remove_button_text": "Remove",
+            "search_placeholder": "Search products...",
+            "all_vendors_text": "All Vendors",
+            "all_product_types_text": "All Product Types",
+            "clear_filters_text": "Clear Filters"
+          }
+        }
+      },
+      "block_order": [
+        "reorderly_v2_wishlist_viewer_fCcUBH"
       ],
       "settings": {
         "include_margins": true
@@ -252,6 +288,7 @@
     "collage",
     "video",
     "multicolumn",
-    "1756411199ba9ced2b"
+    "1756411199ba9ced2b",
+    "1769072290ba1bb53c"
   ]
 }
