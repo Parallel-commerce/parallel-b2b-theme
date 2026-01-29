@@ -12,6 +12,10 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "reorderly_add_to_list_mNkrLn": {
+          "type": "shopify://apps/reorderly/blocks/add-to-list/019c09bd-6c30-7234-88c3-042d3013e15a",
+          "settings": {}
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -44,28 +48,6 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
-        },
-        "reorderly_v2_wishlist_icon_b3Gp6h": {
-          "type": "shopify://apps/reorderly-v2/blocks/wishlist-icon/092a80d7-24dc-4627-a7ff-4a1b1a534bf4",
-          "settings": {
-            "product": "{{product}}",
-            "text": "Add to Favorites",
-            "colour": "#ff0000"
-          }
-        },
-        "wishlist_b2b_wishlist_button_DQNJQU": {
-          "type": "shopify://apps/wishlist-b2b/blocks/wishlist-button/b569230d-fb77-4a0c-b6a9-d543c0cfd085",
-          "disabled": true,
-          "settings": {
-            "add_button_text": "Add to wishlist",
-            "add_button_color": "#111111",
-            "add_text_color": "#ffffff",
-            "add_button_hover_color": "#333333",
-            "remove_button_text": "Remove from wishlist",
-            "remove_button_color": "#dc3545",
-            "remove_text_color": "#ffffff",
-            "remove_button_hover_color": "#c82333"
-          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -122,14 +104,13 @@
         }
       },
       "block_order": [
+        "reorderly_add_to_list_mNkrLn",
         "vendor",
         "title",
         "caption",
         "price",
         "variant_picker",
         "quantity_selector",
-        "reorderly_v2_wishlist_icon_b3Gp6h",
-        "wishlist_b2b_wishlist_button_DQNJQU",
         "buy_buttons",
         "description",
         "collapsible-row-0",
