@@ -222,29 +222,20 @@
     },
     "1756411199ba9ced2b": {
       "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1769699534797f3eb9": {
+      "type": "apps",
       "blocks": {
-        "reorderly_v2_wishlist_viewer_HyabPk": {
-          "type": "shopify://apps/reorderly-v2/blocks/wishlist-viewer/092a80d7-24dc-4627-a7ff-4a1b1a534bf4",
-          "settings": {
-            "title": "My Wishlist",
-            "login_message": "Please log in to view your wishlist.",
-            "login_button_text": "Login",
-            "loading_text": "Loading your wishlist...",
-            "empty_message": "Your wishlist is empty.",
-            "shop_button_text": "Start Shopping",
-            "add_to_cart_button_text": "Add to Cart",
-            "adding_to_cart_text": "Adding...",
-            "added_to_cart_text": "Added!",
-            "remove_button_text": "Remove",
-            "search_placeholder": "Search products...",
-            "all_vendors_text": "All Vendors",
-            "all_product_types_text": "All Product Types",
-            "clear_filters_text": "Clear Filters"
-          }
+        "reorderly_my_lists_wXmqdY": {
+          "type": "shopify://apps/reorderly/blocks/my-lists/019c09bd-6c30-7234-88c3-042d3013e15a",
+          "settings": {}
         }
       },
       "block_order": [
-        "reorderly_v2_wishlist_viewer_HyabPk"
+        "reorderly_my_lists_wXmqdY"
       ],
       "settings": {
         "include_margins": true
@@ -253,6 +244,7 @@
   },
   "order": [
     "image_banner",
+    "1769699534797f3eb9",
     "rich_text",
     "featured_collection",
     "collage",
