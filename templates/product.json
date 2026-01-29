@@ -12,7 +12,7 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "reorderly_add_to_list_mNkrLn": {
+        "reorderly_add_to_list_girJFc": {
           "type": "shopify://apps/reorderly/blocks/add-to-list/019c09bd-6c30-7234-88c3-042d3013e15a",
           "settings": {}
         },
@@ -104,7 +104,7 @@
         }
       },
       "block_order": [
-        "reorderly_add_to_list_mNkrLn",
+        "reorderly_add_to_list_girJFc",
         "vendor",
         "title",
         "caption",
