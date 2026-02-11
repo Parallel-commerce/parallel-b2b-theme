@@ -12,16 +12,16 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "reorderly_add_to_list_CCMgYk": {
-          "type": "shopify://apps/reorderly/blocks/add-to-list/019c0a88-f854-7130-b9eb-1b45a5da8bed",
-          "settings": {}
-        },
         "vendor": {
           "type": "text",
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
           }
+        },
+        "reorderly_add_to_list_cpLymG": {
+          "type": "shopify://apps/reorderly/blocks/add-to-list/019c0e6e-125d-7dd7-b669-dc1066c16353",
+          "settings": {}
         },
         "title": {
           "type": "title",
@@ -104,8 +104,8 @@
         }
       },
       "block_order": [
-        "reorderly_add_to_list_CCMgYk",
         "vendor",
+        "reorderly_add_to_list_cpLymG",
         "title",
         "caption",
         "price",
