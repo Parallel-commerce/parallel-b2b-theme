@@ -58,15 +58,6 @@
     },
     "1769703512550a8495": {
       "type": "apps",
-      "blocks": {
-        "reorderly_my_lists_zGhpXD": {
-          "type": "shopify://apps/reorderly/blocks/my-lists/019c0a88-f854-7130-b9eb-1b45a5da8bed",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "reorderly_my_lists_zGhpXD"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -246,6 +237,21 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "1773178900d46d1448": {
+      "type": "apps",
+      "blocks": {
+        "reorderly_my_lists_qwzPhU": {
+          "type": "shopify://apps/reorderly/blocks/my-lists/019c0e6e-125d-7dd7-b669-dc1066c16353",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "reorderly_my_lists_qwzPhU"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -257,6 +263,7 @@
     "collage",
     "video",
     "multicolumn",
-    "1756411199ba9ced2b"
+    "1756411199ba9ced2b",
+    "1773178900d46d1448"
   ]
 }
