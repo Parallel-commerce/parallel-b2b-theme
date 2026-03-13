@@ -19,10 +19,6 @@
             "text_style": "uppercase"
           }
         },
-        "reorderly_add_to_list_cpLymG": {
-          "type": "shopify://apps/reorderly/blocks/add-to-list/019c0e6e-125d-7dd7-b669-dc1066c16353",
-          "settings": {}
-        },
         "title": {
           "type": "title",
           "settings": {}
@@ -105,7 +101,6 @@
       },
       "block_order": [
         "vendor",
-        "reorderly_add_to_list_cpLymG",
         "title",
         "caption",
         "price",
